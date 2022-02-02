@@ -1,0 +1,39 @@
+{
+  "name": "node-auth-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate for very basic node + express.js user registration/authentication.",
+  "main": "server.js",
+  "scripts": {
+    "start": "cd server && nodemon server.js"
+  },
+  "_moduleAliases": {
+    "@root": ".",
+    "@": "server"
+  },
+  "_moduleDirectories": [
+    "node_modules_custom"
+  ],
+  "keywords": [
+    "node.js",
+    "express.js",
+    "user authentication",
+    "endpoint authentication"
+  ],
+  "author": "Yang Lorenzana",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^15.0.0",
+    "express": "^4.16.3",
+    "joi": "^17.6.0",
+    "module-alias": "^2.2.2",
+    "mongoose": "^5.1.5",
+    "mongoose-unique-validator": "^2.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
